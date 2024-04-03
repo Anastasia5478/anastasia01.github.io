@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engines</title>
+    <meta name="description" content="Simple search forms for popular search engines">
+    <meta name="keywords" content="search, yandex, rambler, aport, google, filesearch">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            margin-bottom: 10px;
+        }
+        input {
+            padding: 5px;
+            margin-right: 5px;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Search Forms</h1>
+
+    <form action="https://www.yandex.ru/search" method="get">
+        <input type="text" name="text" placeholder="Search on Yandex">
+        <button type="submit">Search</button>
+    </form>
+
+    <form action="https://www.rambler.ru/search" method="get">
+        <input type="text" name="query" placeholder="Search on Rambler">
+        <button type="submit">Search</button>
+    </form>
+
+    <form action="http://www.aport.ru/search" method="get">
+        <input type="text" name="r" placeholder="Search on Aport">
+        <button type="submit">Search</button>
+    </form>
+
+    <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" placeholder="Search on Google">
+        <button type="submit">Search</button>
+    </form>
+
+    <form action="https://filesearch.net/" method="get">
+        <input type="text" name="q" placeholder="Search on Filesearch">
+        <button type="submit">Search</button>
+    </form>
+
+</body>
+</html>
